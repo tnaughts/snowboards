@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Trip Sign-up</title>
+</head>
+<body bgcolor="#0FFFF">
+<header><a href="index.html">Home</a></header>
+<p><h1>Sign up for a trip</h1></p>
+
+<form name="adventure" action="success.html" method="post">
+  <fieldset>
+    <div>
+      <label>Full name:</label>
+      <input type="text" name="fullname">
+    </div>
+
+    <div>
+      <label>Email:</label>
+      <input type="email" name="email">
+    </div>
+
+    
+  </fieldset>
+
+  <fieldset>
+    <div>
+      <label>Adventure name:</label>
+      <input type="text" name="adv-name" placeholder="Name this adventure">
+    </div>
+
+    <div>
+      <label>Skill level:</label>
+      <select name="skill">
+        <option value="beginner">beginner</option>
+        <option value="beginner">intermediate</option>
+        <option value="beginner">expert</option>
+      </select>
+    </div>
+
+    <div>    
+      <label>Choose a date:</label>
+      <input type="date" name="date">
+    </div>
+
+    <div>
+      <input type="checkbox" name="cb-agree" value="agree">
+      I am prepared to lgo on this trip.
+    </div>
+  </fieldset>
+  
+  <button type="submit">Save this trip</button>
+</form>
+
+</body>
+</html>
