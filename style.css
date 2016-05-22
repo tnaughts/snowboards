@@ -1,12 +1,17 @@
 body {
 	background: blue;
 	color: white;
+	width: 100%;
 
+}
+header {
+	text-align:center;
 }
 
 h1 {
 	font-style: Helvetica;
 	color: red;
+	width: 100%;
 }
 
 .boarding {
@@ -32,5 +37,6 @@ a:link {
 
 div {
 	background-image: tahoeimage.jpg;
+	 background-size: 100px 80px;
 }
 
